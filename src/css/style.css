@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a{
+    margin-bottom: 42px;
+}
+h1{
+    color: hsl(0, 0%, 59%);
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+span{
+    font-weight: 700;
+    color: hsl(209, 33%, 12%);
+}
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 42px;
+}
+form{
+    display: flex;
+}
+.email, .submit{
+    height: 55px;
+    border-radius: 55px;
+    font-size: 17px;
+}
+.email{
+    width: 420px;
+    margin-right: 15px;
+    padding: 20px 28px;
+    border: 1px solid hsl(223, 100%, 88%);
+}
+.email::placeholder{
+    color: hsl(223, 100%, 88%);
+}
+.submit{
+    width: 200px;
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    color: #ffffff;
+    transition: 0.3s ease-in;
+    font-weight: 600;
+    cursor: pointer;
+}
+.submit:hover{
+    opacity: 80%;
+}
+.erro{
+    font-style: italic;
+    font-size: 14px;
+    color: hsl(354, 100%, 66%);
+    padding: 5px 20px;
+}
+.email-erro{
+    border: 1px solid hsl(354, 100%, 66%);
+    color: hsl(354, 100%, 66%);
+}
+form div{
+    margin-bottom: 60px;
+}
+.dashboard{
+    width: 640px;
+    margin-bottom: 50px;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+ul li{
+    border-radius: 50%;
+    border: 1px solid hsl(223, 100%, 88%);
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    padding: 8px 10px;
+    color: hsl(223, 87%, 63%);
+    transition: 0.3s ease-in;
+    margin-bottom: 20px;
+}
+ul li:hover{
+    background-color: hsl(223, 87%, 63%);
+    color: #ffffff;
+}
+.copyright{
+    font-size: 12px;
+    color: hsl(0, 0%, 59%);
+}
+.none{
+    display: none;
+}
