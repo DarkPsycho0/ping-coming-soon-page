@@ -1,0 +1,40 @@
+@media(max-width:1440px){
+    a{
+        margin-bottom: 20px;
+    }
+    h1{
+        margin-bottom: 10px;
+    }
+    h2{
+        margin-bottom: 30px;
+    }
+    form div{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:425px){
+    h1{
+        font-size: 36px;
+    }
+    .email{
+        margin-right: auto;
+    }
+    .email, .submit, .dashboard{
+        width: 375px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    form div, .submit{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:375px){
+    h1{
+        font-size: 28px;
+    }
+    .email, .submit, .dashboard{
+        width: 300px;
+    }
+}
