@@ -21,7 +21,6 @@ submitBtn.addEventListener('click', () => {
         emailInput.classList.add('email-erro')
         noEmail.classList.remove('none')
     }else {
-        emailInput.classList.remove('email-erro')
         noEmail.classList.add('none')
     }
 })
