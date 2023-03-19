@@ -67,6 +67,8 @@ form{
 }
 .email-erro{
     border: 1px solid hsl(354, 100%, 66%);
+}
+.email-erro::placeholder{
     color: hsl(354, 100%, 66%);
 }
 form div{
